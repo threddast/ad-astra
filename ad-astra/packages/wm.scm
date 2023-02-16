@@ -24,7 +24,8 @@
 (define-public waybar-experimental
   (let ((base waybar))
     (package
-     (inherit base)
-     (name "waybar-experimental")
-     (arguments
-      (list #:configure-flags #~(list "-Dexperimental=true"))))))
+      (inherit base)
+      (name "waybar-experimental")
+      (arguments
+       (list #:configure-flags #~(list "-Dexperimental=true")))
+      (synopsis "Waybar with experimental features turned on"))))

@@ -1,4 +1,4 @@
-(define-module (ad-astra packages crates-io)
+(define-module (ad-astra packages keyboard)
   #:use-module ((guix licenses) #:prefix license:)
   #:use-module (guix packages)
   #:use-module (nonguix build-system binary)
